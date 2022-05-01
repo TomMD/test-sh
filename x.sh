@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-var2 = val
+var = val
 
 echo "foo"
