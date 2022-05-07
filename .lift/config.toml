@@ -1,0 +1,3 @@
+tools = []
+customTools = ["https://raw.githubusercontent.com/TomMD/PathMessages/main/PathMessages.py"]
+setup = ".lift/setup.sh"

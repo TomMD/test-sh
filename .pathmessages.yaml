@@ -1,0 +1,15 @@
+GeneratedFiles:
+  message: You didn't hand-edit these generated files, right? You did it via codegen?
+  paths: "**/generated/**"
+
+StagingNotProd:
+  message: You changed staging but not production configurations. Do you really want this?
+  paths: "**/staging/**"
+  except:
+    also_changed: "**/production/**"
+
+ProdNotStaging:
+  message: You changed production but not staging configurations. Do you really want this?
+  paths: "**/production/**"
+  except:
+    also_changed: "**/staging/**"
